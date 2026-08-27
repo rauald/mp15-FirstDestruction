@@ -3,4 +3,5 @@
 public class NPC
 {
     string name;
+    string description;
 }
