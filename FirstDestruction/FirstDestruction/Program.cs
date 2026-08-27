@@ -12,5 +12,6 @@ class Program
         Console.Write("Hello Destruction!");
         Console.Write("Hello Destruction!");
         Console.Write("Hello Destruction!");
+        Console.Write("Hello Destruction!");
     }
 }
