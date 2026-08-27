@@ -8,5 +8,9 @@ class Program
         Console.Write("Hello Destruction!");
 
         Slime slime = new Slime("슬라임", 5, 100);
+
+        Console.Write("Hello Destruction!");
+        Console.Write("Hello Destruction!");
+        Console.Write("Hello Destruction!");
     }
 }
