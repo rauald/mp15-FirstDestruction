@@ -26,4 +26,9 @@
             IsDie = true;
         }
     }
+
+    public void Kill()
+    {
+        Health = 0;
+    }
 }
