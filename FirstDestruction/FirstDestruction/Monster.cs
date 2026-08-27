@@ -13,11 +13,8 @@
     private bool _isDie;
     public bool IsDie { get { return _isDie; } protected set { _isDie = value; } }
 
-    public Monster(string name, int health)
+    public Monster(string name, int health, int atk)
     {
-        _name = name;
-        _health = health;
-        IsDie = false;
     }
     
     public void Hit(int damage)
