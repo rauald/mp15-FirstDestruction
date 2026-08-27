@@ -20,4 +20,13 @@
         IsDie = false;
     }
     
+    public void Hit(int damage)
+    {
+        Health -= damage;
+        if(Health <= 0)
+        {
+            Health = 0;
+            IsDie = true;
+        }
+    }
 }
